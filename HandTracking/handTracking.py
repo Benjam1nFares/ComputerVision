@@ -142,7 +142,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
             cv2.putText(frame, texto_gesto_pantalla, (50, 80),
                         cv2.FONT_HERSHEY_SIMPLEX, 1.5, COLOR_GESTO, 4, cv2.LINE_AA)
 
-        cv2.imshow('Mano Vectorizada Conectada', frame)
+        cv2.imshow('HandTracking', frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
