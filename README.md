@@ -1,11 +1,13 @@
 # Proyectos de Visión por Computadora 👁️🤖
 
-Este repositorio centraliza mis proyectos y experimentos prácticos en el área de Visión por Computadora, explorando el procesamiento de video en tiempo real, la vectorización de landmarks y el reconocimiento de gestos/posturas.
+Este repositorio centraliza mis proyectos y experimentos prácticos en el área de Visión por Computadora, explorando el procesamiento de video en tiempo real, la vectorización de landmarks, el reconocimiento de gestos y la detección de objetos.
 
 ## 🛠️ Tecnologías Globales
+
 * **Python 3.x**
-* **OpenCV** 
-* **MediaPipe Tasks**
+* **OpenCV** (Procesamiento de video y renderizado de gráficos)
+* **MediaPipe Tasks** (Modelos de landmarks para manos y poses)
+* **YOLOv8 - Ultralytics** (Modelos convolucionales para detección de objetos en tiempo real)
 
 ---
 
