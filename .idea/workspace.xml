@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43d76070-1ce5-411c-8c75-ee8223e61767" name="Changes" comment="ObjectDetection alpha">
-      <change beforePath="$PROJECT_DIR$/HandTracking/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HandTracking/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="43d76070-1ce5-411c-8c75-ee8223e61767" name="Changes" comment="ObjectDetection alpha - readME" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +142,7 @@
       <workItem from="1780694360814" duration="1051000" />
       <workItem from="1780778450155" duration="1346000" />
       <workItem from="1780933219903" duration="1956000" />
-      <workItem from="1780978791844" duration="2339000" />
+      <workItem from="1780978791844" duration="2760000" />
     </task>
     <task id="LOCAL-00001" summary="Detección de gestos">
       <option name="closed" value="true" />
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780980963938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ObjectDetection alpha - readME">
+      <option name="closed" value="true" />
+      <created>1780981648474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780981648474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +186,8 @@
     <MESSAGE value="Detección de gestos" />
     <MESSAGE value="PoseDetection 1.0 y modificación de ReadME" />
     <MESSAGE value="ObjectDetection alpha" />
-    <option name="LAST_COMMIT_MESSAGE" value="ObjectDetection alpha" />
+    <MESSAGE value="ObjectDetection alpha - readME" />
+    <option name="LAST_COMMIT_MESSAGE" value="ObjectDetection alpha - readME" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HandTracking$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1780778498683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HandTracking" />
