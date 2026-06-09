@@ -37,14 +37,19 @@ Primer acercamiento a arquitecturas avanzadas de Machine Learning para localizac
    git clone [https://github.com/Benjam1nFares/ComputerVision.git](https://github.com/Benjam1nFares/ComputerVision.git)
    
 2. **Descargá los modelos oficiales:**
-    Hand Tracking: (https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task)
-        [hand_landmarker.task]
-    Pose Detection: (https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker)
-        [pose_landmarker_full.task] - Renombré el archivo como [pose_landmarker.task].
+   - Hand Tracking:
+   (https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task)
+   Descargar el archivo [hand_landmarker.task]
+   - Pose Detection:
+   (https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker)
+   Descargar el archivo [pose_landmarker_full.task] y Renombrar como [pose_landmarker.task].
 
 3. Instalá las dependencias:
-    `pip install opencv-python mediapipe` - HandTracking - PoseDetection
-    `pip install opencv-python mediapipe ultralytics` - ObjectDetection
+    - HandTracking - PoseDetection:
+    `pip install opencv-python mediapipe`
+    - 
+    - ObjectDetection:
+    `pip install opencv-python mediapipe ultralytics`
 
 4. Ejecutá el script principal.
 
