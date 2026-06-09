@@ -49,7 +49,6 @@ Primer acercamiento a arquitecturas avanzadas de Machine Learning para localizac
 3. Instalá las dependencias:
     - HandTracking - PoseDetection:
     `pip install opencv-python mediapipe`
-    - 
     - ObjectDetection:
     `pip install opencv-python mediapipe ultralytics`
 
