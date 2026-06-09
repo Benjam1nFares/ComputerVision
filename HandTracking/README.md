@@ -23,6 +23,11 @@ Traqueo de cuerpo entero en tiempo real vectorizando las 33 articulaciones princ
 * **Características:** Estructura inicial para el mapeo de coordenadas corporales (hombros, brazos, torso y piernas).
 * **Modelo requerido:** `pose_landmarker.task`
 
+### 📦 3. Detección de Objetos con IA (`ObjectDetection`)
+Primer acercamiento a arquitecturas avanzadas de Machine Learning para localización y clasificación de elementos mediante cajas de delimitación (*Bounding Boxes*).
+* **Características:** Implementación en tiempo real de **YOLOv8** (Ultralytics) utilizando un modelo convolucional pre-entrenado para el reconocimiento simultáneo de múltiples objetos cotidianos.
+* **Modelo requerido:** `yolov8n.pt`.
+
 ---
 
 ## 🚀 Cómo ejecutar cualquiera de los proyectos
@@ -37,7 +42,9 @@ Traqueo de cuerpo entero en tiempo real vectorizando las 33 articulaciones princ
     Pose Detection: (https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker)
         [pose_landmarker_full.task] - Renombré el archivo como [pose_landmarker.task].
 
-3. Instalá las dependencias: `pip install opencv-python mediapipe`
+3. Instalá las dependencias:
+    `pip install opencv-python mediapipe` - HandTracking - PoseDetection
+    `pip install opencv-python mediapipe ultralytics` - ObjectDetection
 
 4. Ejecutá el script principal.
 
