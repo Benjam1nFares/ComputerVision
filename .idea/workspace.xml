@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43d76070-1ce5-411c-8c75-ee8223e61767" name="Changes" comment="ObjectDetection alpha - readME 1.2" />
+    <list default="true" id="43d76070-1ce5-411c-8c75-ee8223e61767" name="Changes" comment="ObjectDetection alpha 0.3.1 - readME">
+      <change afterPath="$PROJECT_DIR$/ObjectDetection/ObjectCropping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,25 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.ObjectDetection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.handTracking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.poseDetection.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ObjectCropping.executor": "Run",
+    "Python.ObjectDetection.executor": "Run",
+    "Python.handTracking.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.poseDetection.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Benja\PycharmProjects\ComputerVision\" />
@@ -144,6 +148,10 @@
       <workItem from="1780778450155" duration="1346000" />
       <workItem from="1780933219903" duration="1956000" />
       <workItem from="1780978791844" duration="3690000" />
+      <workItem from="1780982650263" duration="544000" />
+      <workItem from="1781038030950" duration="608000" />
+      <workItem from="1781133111630" duration="256000" />
+      <workItem from="1781233996436" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="Detección de gestos">
       <option name="closed" value="true" />
@@ -209,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780982579557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ObjectDetection alpha - readME 1.3">
+      <option name="closed" value="true" />
+      <created>1780982716164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780982716164</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ObjectDetection alpha 0.3.1 - readME">
+      <option name="closed" value="true" />
+      <created>1780982794283</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1780982794284</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,13 +247,16 @@
     <MESSAGE value="ObjectDetection alpha - readME 1.0" />
     <MESSAGE value="ObjectDetection alpha - readME 1.1" />
     <MESSAGE value="ObjectDetection alpha - readME 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ObjectDetection alpha - readME 1.2" />
+    <MESSAGE value="ObjectDetection alpha - readME 1.3" />
+    <MESSAGE value="ObjectDetection alpha 0.3.1 - readME" />
+    <option name="LAST_COMMIT_MESSAGE" value="ObjectDetection alpha 0.3.1 - readME" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HandTracking$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1780778498683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HandTracking" />
-    <SUITE FILE_PATH="coverage/HandTracking$handTracking.coverage" NAME="handTracking Coverage Results" MODIFIED="1780979859337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HandTracking" />
     <SUITE FILE_PATH="coverage/HandTracking$ObjectDetection.coverage" NAME="ObjectDetection Coverage Results" MODIFIED="1780980206739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDetection" />
+    <SUITE FILE_PATH="coverage/HandTracking$handTracking.coverage" NAME="handTracking Coverage Results" MODIFIED="1781234065722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HandTracking" />
     <SUITE FILE_PATH="coverage/HandTracking$main.coverage" NAME="main Coverage Results" MODIFIED="1780778473433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HandTracking$poseDetection.coverage" NAME="poseDetection Coverage Results" MODIFIED="1780933321862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PoseDetection" />
+    <SUITE FILE_PATH="coverage/HandTracking$poseDetection.coverage" NAME="poseDetection Coverage Results" MODIFIED="1781133287272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PoseDetection" />
+    <SUITE FILE_PATH="coverage/HandTracking$ObjectCropping.coverage" NAME="ObjectCropping Coverage Results" MODIFIED="1781234087740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectDetection" />
   </component>
 </project>

@@ -29,6 +29,14 @@ Traqueo de cuerpo entero en tiempo real vectorizando las 33 articulaciones princ
 Primer acercamiento a arquitecturas avanzadas de Machine Learning para localización y clasificación de elementos mediante cajas de delimitación (*Bounding Boxes*).
 * **Características:** Implementación en tiempo real de **YOLOv8** (Ultralytics) utilizando un modelo convolucional pre-entrenado para el reconocimiento simultáneo de múltiples objetos cotidianos.
 * **Modelo requerido:** `yolov8n.pt`.
+* 
+### 📦 3.5 Detección de Objetos con IA (`ObjectCropping`)
+Evolución del proyecto hacia arquitecturas de Machine Learning personalizadas (*Custom Training*) orientadas al objetivo final: un lector automático de dorsales para trail running.
+* **Características:**
+  * **Extracción de Coordenadas:** Apertura manual del objeto `results` de YOLOv8 para aislar bounding boxes individuales, confianza y etiquetas sin usar renderizado automático.
+  * **Recorte de ROI (Region of Interest):** Implementación de rebanado de matrices (*slicing*) en OpenCV para aislar sub-imágenes en tiempo real (pilar técnico para el aislamiento del dorsal).
+  * **Dataset Personalizado (Roboflow):** Curación y etiquetado manual (*Object Detection / Bounding Boxes*) de un dataset inicial de competidores de trail running para entrenar pesos propios en YOLOv8.
+* **Modelos/Herramientas:** `yolov8n.pt` / Plataforma Roboflow.
 
 ---
 
